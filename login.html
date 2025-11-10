@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Constructa | Client Login</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body class="bg-light">
+  <!--#include file="includes/preloader.html" -->
+ 
+  <div class="auth-brand">
+    <a href="index.html" class="auth-brand__link" aria-label="Constructa home">
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046869.png" alt="Constructa logo" />
+      <span>Constructa</span>
+    </a>
+  </div>
+
+  <main>
+    <section class="auth-section">
+      <div class="container">
+        <div class="auth-surface">
+          <div class="auth-layout">
+            <div class="auth-intro" data-aos="fade-up">
+              <span class="auth-eyebrow">Client Portal</span>
+              <h1>Client Portal Login</h1>
+              <p>Access real-time project dashboards, documentation, and collaboration tools from any device.</p>
+              <ul class="auth-benefits">
+                <li>Monitor milestones, approvals, and RFIs instantly</li>
+                <li>Share files securely with Constructa delivery teams</li>
+                <li>Stay aligned with schedule and budget updates</li>
+              </ul>
+              <div class="auth-meta">
+                <span>24/7 secure access</span>
+                <span>Single sign-on ready</span>
+              </div>
+            </div>
+            <article class="auth-card" data-aos="fade-up" data-aos-delay="150">
+              <div class="auth-card__header">
+                <span class="auth-card__badge">Welcome back</span>
+                <h2>Sign in to your workspace</h2>
+                <p class="auth-card__subtext">Securely access dashboards, documents, and collaboration tools tailored to your active projects.</p>
+              </div>
+              <form class="auth-card__form" novalidate>
+                <div class="auth-field">
+                  <label class="auth-field__label" for="login-email">Email address</label>
+                  <div class="auth-field__input-wrapper">
+                    <span class="auth-field__icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 6h16a1 1 0 0 1 .8 1.6l-8.8 6.6a1 1 0 0 1-1.2 0L3.2 7.6A1 1 0 0 1 4 6Z" />
+                        <path d="M20 18H4a1 1 0 0 1-1-1V7" />
+                      </svg>
+                    </span>
+                    <input type="email" id="login-email" name="login-email" placeholder="you@company.com" required />
+                  </div>
+                </div>
+
+                <div class="auth-field">
+                  <label class="auth-field__label" for="login-password">Password</label>
+                  <div class="auth-field__input-wrapper">
+                    <span class="auth-field__icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="10" rx="2" />
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                      </svg>
+                    </span>
+                    <input type="password" id="login-password" name="login-password" placeholder="Enter password" required />
+                  </div>
+                </div>
+
+                <div class="auth-card__assist">
+                  <label class="auth-checkbox" for="remember">
+                    <input type="checkbox" id="remember" name="remember" /> Remember me on this device
+                  </label>
+                  <a href="#" class="text-primary">Forgot password?</a>
+                </div>
+
+                <div class="auth-card__actions">
+                  <button type="submit" class="btn btn-primary">Sign In</button>
+                </div>
+                <p class="auth-card__footer">Need access? <a href="contact.html" class="text-primary">Contact our team</a>.</p>
+              </form>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+
